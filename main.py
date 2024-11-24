@@ -8,6 +8,9 @@ st.write(a)
 st.write("source file")
 b="https://drive.google.com/drive/folders/1S_e8pv8PXpMy2OI28XWv5TQ_xL2XAO6k?usp=drive_link"
 st.write(b)
+st.write("photo url")
+c="sjctni.edu/images/SPhotos/22/22ucs101.jpg"
+st.write(c)
 st.markdown("""
         <style>
         body {
