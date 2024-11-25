@@ -1,6 +1,7 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 import adout as ab
+st.write("https://drive.google.com/drive/folders/1m-VrRZz67QLG4XG7nlh7mKqLRT3UGKIb?usp=sharing")
 st.title("project")
 st.write("software file")
 a="https://drive.google.com/drive/folders/1gITi_Mg6PH6958xmlqDskYkM-yJzp3gI?usp=drive_link"
