@@ -3,7 +3,7 @@ from streamlit_option_menu import option_menu
 import adout as ab
 
 
-st.markdown("You can find our `ads.txt` file [here](https://github.com/Joelroys637/OWN_webpage/blob/ddf386f194af22f93cfbd28949a22ff521cac0fc/ads.txt).")
+
 st.write("https://drive.google.com/drive/folders/1m-VrRZz67QLG4XG7nlh7mKqLRT3UGKIb?usp=sharing")
 st.title("project")
 st.write("software file")
