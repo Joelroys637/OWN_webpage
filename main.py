@@ -1,6 +1,9 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 import adout as ab
+import streamlit.components.v1 as components
+adsense_script ="""<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7596984091672717" crossorigin="anonymous"></script>"""
+components.html(adsense_script, height=250)
 
 
 
