@@ -1,11 +1,21 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 import adout as ab
-import streamlit.components.v1 as components
-adsense_script ="""<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7596984091672717" crossorigin="anonymous"></script>"""
-components.html(adsense_script, height=250)
 
-
+adsense_html = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="google-adsense-account" content="ca-pub-7596984091672717">
+    <title>Example Streamlit Page</title>
+</head>
+<body>
+    <h1>Welcome to the Streamlit App with AdSense</h1>
+    <p>This page includes a Google AdSense meta tag in the head section.</p>
+</body>
+</html>
+"""
+st.components.v1.html(adsense_html, height=300)
 
 st.write("https://drive.google.com/drive/folders/1m-VrRZz67QLG4XG7nlh7mKqLRT3UGKIb?usp=sharing")
 st.title("project")
