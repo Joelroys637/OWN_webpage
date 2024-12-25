@@ -3,15 +3,11 @@ from streamlit_option_menu import option_menu
 import adout as ab
 
 adsense_html = """
-<!DOCTYPE html>
-<html>
 <head>
     <meta name="google-adsense-account" content="ca-pub-7596984091672717">
     <title>Example Streamlit Page</title>
 </head>
-</html>
-"""
-st.components.v1.html(adsense_html, height=300)
+""",unsafe_allow_html=True)
 
 st.write("https://drive.google.com/drive/folders/1m-VrRZz67QLG4XG7nlh7mKqLRT3UGKIb?usp=sharing")
 st.title("project")
