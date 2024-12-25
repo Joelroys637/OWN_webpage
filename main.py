@@ -1,13 +1,13 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 import adout as ab
+import streamlit.components.v1 as components
 
-st.markdown("""
-<head>
-    <meta name="google-adsense-account" content="ca-pub-7596984091672717">
-    <title>Example Streamlit Page</title>
-</head>
-""",unsafe_allow_html=True)
+components.html("""
+    <head>
+        <title>Example Streamlit Page</title>
+    </head>
+""", height=0)
 
 st.write("https://drive.google.com/drive/folders/1m-VrRZz67QLG4XG7nlh7mKqLRT3UGKIb?usp=sharing")
 st.title("project")
