@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import adout as ab
 
-adsense_html = """
+st.markdown("""
 <head>
     <meta name="google-adsense-account" content="ca-pub-7596984091672717">
     <title>Example Streamlit Page</title>
