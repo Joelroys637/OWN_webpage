@@ -8,7 +8,7 @@ components.html("""
         <title>Example Streamlit Page</title>
     </head>
 """, height=0)
-
+st.write("http://bit.ly/35GUYzF")
 st.write("https://drive.google.com/drive/folders/1m-VrRZz67QLG4XG7nlh7mKqLRT3UGKIb?usp=sharing")
 st.title("project")
 st.write("software file")
